@@ -1,0 +1,29 @@
+{
+	"manifest_version":2,
+	"name":"Audible Download whole Podcast",
+	"version":"1.0",
+	"description":"Downloads all Episodes of a Audible Podcast with one click.",
+	"background":{
+		"scripts":[
+			"backgroundScript.js"
+		]
+	},
+	"permissions":[
+		"activeTab"
+	],
+	"content_scripts":[
+		{
+			"matches":[
+				"https://www.audible.de/*"
+			],
+			"js":[
+				"contentScript.js"
+			]
+		}
+	],
+	"browser_action":{
+		"default_icon":{
+			"32":"icon.png"
+		}
+	}
+}
