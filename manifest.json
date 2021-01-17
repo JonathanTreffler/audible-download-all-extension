@@ -11,7 +11,7 @@
 	"permissions":[
 		"activeTab"
 	],
-	"content_scripts":[
+	/*"content_scripts":[
 		{
 			"matches":[
 				"https://www.audible.de/*"
@@ -20,7 +20,7 @@
 				"contentScript.js"
 			]
 		}
-	],
+	],*/
 	"browser_action":{
 		"default_icon":{
 			"32":"icon.png"
