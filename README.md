@@ -1,4 +1,4 @@
-# Audible Download All Extension
+# Audible Download All Browser Extension
 
 ## Usage
 Click on the extension icon and it will download the .aax files for every episode on the current page.
